@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jon's corner of the internet</title>
+  <style>
+    /* CSS goes here. It decides how things look. */
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 2rem;
+      background: #f7f1e8;
+      color: #3b2a1e;
+    }
+    h1 {
+      color: #8b4513;
+    }
+    a {
+      color: #c2410c;
+    }
+  </style>
+</head>
+<body>
+  <!-- HTML goes here. It decides what's on the page. -->
+  <h1>Hi, I'm Jon ☕</h1>
+  <p>I design products, tinker with robots, and spend far too much time dialling in the perfect cup of coffee. Right now I'm learning how to build websites from scratch.</p>
+  <p>Things I like:</p>
+  <ul>
+    <li>Specialty coffee</li>
+    <li>Robotics</li>
+    <li>Architecture and design</li>
+  </ul>
+  <p>My favourite site is <a href="https://www.wikipedia.org">Wikipedia</a>.</p>
+  <button id="brew">Brew another cup</button>
+
+  <script>
+    // JavaScript goes here. It makes things happen.
+    const button = document.getElementById("brew");
+    button.addEventListener("click", () => {
+      document.body.style.background = "#e7d3b8";
+    });
+  </script>
+</body>
+</html>
